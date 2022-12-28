@@ -9,9 +9,4 @@
     <None Include="..\.editorconfig" Link=".editorconfig" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Desktop\mmfont.Net\mmfont.Net\mmfont.Net.csproj" />
-    <ProjectReference Include="..\..\..\..\Desktop\myanmar-tools\clients\c#\MyanmarTools\MyanmarTools.csproj" />
-  </ItemGroup>
-
 </Project>

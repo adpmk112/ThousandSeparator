@@ -1,45 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "mmfont.Net/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/mmfont.Net.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/mmfont.Net.dll": {}
-        }
-      },
-      "MyanmarTools/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/MyanmarTools.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MyanmarTools.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "mmfont.Net/1.0.0": {
-      "type": "project",
-      "path": "../../../../Desktop/mmfont.Net/mmfont.Net/mmfont.Net.csproj",
-      "msbuildProject": "../../../../Desktop/mmfont.Net/mmfont.Net/mmfont.Net.csproj"
-    },
-    "MyanmarTools/1.0.0": {
-      "type": "project",
-      "path": "../../../../Desktop/myanmar-tools/clients/c#/MyanmarTools/MyanmarTools.csproj",
-      "msbuildProject": "../../../../Desktop/myanmar-tools/clients/c#/MyanmarTools/MyanmarTools.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "MyanmarTools >= 1.0.0",
-      "mmfont.Net >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\DELL\\.nuget\\packages\\": {}
@@ -67,14 +33,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\DELL\\Desktop\\mmfont.Net\\mmfont.Net\\mmfont.Net.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\mmfont.Net\\mmfont.Net\\mmfont.Net.csproj"
-            },
-            "C:\\Users\\DELL\\Desktop\\myanmar-tools\\clients\\c#\\MyanmarTools\\MyanmarTools.csproj": {
-              "projectPath": "C:\\Users\\DELL\\Desktop\\myanmar-tools\\clients\\c#\\MyanmarTools\\MyanmarTools.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
