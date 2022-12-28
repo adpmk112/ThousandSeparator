@@ -19,13 +19,13 @@ namespace ConsoleTest
             return separatedValue;
         }
 
-        public string DecimalThousandSeparator(decimal word)
+        public string DecimalThousandSeparator(decimal word) //seperated with decimal
         {
             string separatedValue = String.Format("{0:#,##0.00}", word);
             return separatedValue;
         }
 
-        public string ThousandSeparator(object word)
+        public string ThousandSeparator(object word) //this separator aim for decimal input
         {
             char last, beforeLast, checkdot;
             string splittedVal;
