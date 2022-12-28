@@ -1,0 +1,14 @@
+C:\Users\DELL\source\repos\ConsoleTest\ConsoleTest\obj\Debug\netcoreapp3.1\ConsoleTest.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\ConsoleTest\ConsoleTest\obj\Debug\netcoreapp3.1\ConsoleTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\ConsoleTest\ConsoleTest\obj\Debug\netcoreapp3.1\ConsoleTest.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\ConsoleTest\ConsoleTest\obj\Debug\netcoreapp3.1\ConsoleTest.AssemblyInfo.cs
+C:\Users\DELL\source\repos\ConsoleTest\ConsoleTest\obj\Debug\netcoreapp3.1\ConsoleTest.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\ConsoleTest\ConsoleTest\bin\Debug\netcoreapp3.1\ConsoleTest.exe
+C:\Users\DELL\source\repos\ConsoleTest\ConsoleTest\bin\Debug\netcoreapp3.1\ConsoleTest.deps.json
+C:\Users\DELL\source\repos\ConsoleTest\ConsoleTest\bin\Debug\netcoreapp3.1\ConsoleTest.runtimeconfig.json
+C:\Users\DELL\source\repos\ConsoleTest\ConsoleTest\bin\Debug\netcoreapp3.1\ConsoleTest.runtimeconfig.dev.json
+C:\Users\DELL\source\repos\ConsoleTest\ConsoleTest\bin\Debug\netcoreapp3.1\ConsoleTest.dll
+C:\Users\DELL\source\repos\ConsoleTest\ConsoleTest\bin\Debug\netcoreapp3.1\ConsoleTest.pdb
+C:\Users\DELL\source\repos\ConsoleTest\ConsoleTest\obj\Debug\netcoreapp3.1\ConsoleTest.dll
+C:\Users\DELL\source\repos\ConsoleTest\ConsoleTest\obj\Debug\netcoreapp3.1\ConsoleTest.pdb
+C:\Users\DELL\source\repos\ConsoleTest\ConsoleTest\obj\Debug\netcoreapp3.1\ConsoleTest.genruntimeconfig.cache

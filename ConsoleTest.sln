@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{CADEF698-B4F8-4A17-A6A2-4616B9970A27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D9CD2195-5C31-4475-8851-CCB26252AAC4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyanmarTools", "..\..\..\Desktop\myanmar-tools\clients\c#\MyanmarTools\MyanmarTools.csproj", "{02585E8A-1C81-4966-8E84-C5B24625FB87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CADEF698-B4F8-4A17-A6A2-4616B9970A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADEF698-B4F8-4A17-A6A2-4616B9970A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADEF698-B4F8-4A17-A6A2-4616B9970A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADEF698-B4F8-4A17-A6A2-4616B9970A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02585E8A-1C81-4966-8E84-C5B24625FB87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02585E8A-1C81-4966-8E84-C5B24625FB87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02585E8A-1C81-4966-8E84-C5B24625FB87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02585E8A-1C81-4966-8E84-C5B24625FB87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC87AFCB-1267-44CF-AED7-CFA033E560EC}
+	EndGlobalSection
+EndGlobal
