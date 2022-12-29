@@ -18,7 +18,7 @@ namespace ConsoleTest
             return separatedValue;
         }
 
-        public string SeperateWithOneDecimal(decimal word)
+        public string SeperateWithOneDecimalPlace(decimal word)
         {
             string separatedValue = String.Format("{0:#,##0.0}", word);
             return separatedValue;
@@ -35,17 +35,22 @@ namespace ConsoleTest
 
             bool decimalNumber = stringWord.Contains(".");
 
-            if (!decimalNumber)
+            if (!decimalNumber) // 1 --> 1 not to get 1.00
             {
                 return DefaultSeparate(Convert.ToDecimal(stringWord));
             }
 
-            if (stringWord.Length == 3 && last == '0')
+            if (stringWord.Length == 3 && last == '0') //1.0 --> 1
             {
                 return DefaultSeparate(Convert.ToDecimal(stringWord));
             }
 
-            if (stringWord.Contains(".00"))
+            if (stringWord.Length == 3 && last != '0') //1.2 --> 1.2 not to get 1.20
+            {
+                return SeperateWithOneDecimalPlace(Convert.ToDecimal(stringWord));
+            }
+
+            if (stringWord.Contains(".00")) //1.00 --> 1 
             {
                 char[] delimiterChars = { '.' };
                 string[] words = stringWord.Split(delimiterChars, 2);
