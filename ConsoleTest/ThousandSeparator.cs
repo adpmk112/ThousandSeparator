@@ -18,7 +18,7 @@ namespace ConsoleTest
             return separatedValue;
         }
 
-        public string EnhancedSeparate(object word) //this separator aim for decimal input
+        public string EnhancedSeparate(object word) 
         {
             char last, beforeLast, checkdot;
             string splittedVal;
@@ -26,6 +26,13 @@ namespace ConsoleTest
             string stringWord = word.ToString();
 
             last = stringWord[stringWord.Length - 1];
+
+            bool decimalNumber = stringWord.Contains(".");
+
+            if (!decimalNumber)
+            {
+                return DefaultSeparate(Convert.ToDecimal(stringWord));
+            }
 
             if (stringWord.Length >= 3)
             {
