@@ -26,7 +26,8 @@ namespace ConsoleTest
 
         public string EnhancedSeparate(object word) 
         {
-            char last;
+            char last; 
+            char beforeLast = '1' , checkdot = '1';
             string splittedVal;
 
             string stringWord = word.ToString();
@@ -50,7 +51,13 @@ namespace ConsoleTest
                 return SeperateWithOneDecimalPlace(Convert.ToDecimal(stringWord));
             }
 
-            if (stringWord.Contains(".00")) //1.00 --> 1 
+            if (stringWord.Length >= 3)
+            {
+                beforeLast = stringWord[stringWord.Length - 2];
+                checkdot = stringWord[stringWord.Length - 3];
+            }
+
+            if (last == '0' && beforeLast == '0' && checkdot == '.') //1.00 --> 1 
             {
                 char[] delimiterChars = { '.' };
                 string[] words = stringWord.Split(delimiterChars, 2);

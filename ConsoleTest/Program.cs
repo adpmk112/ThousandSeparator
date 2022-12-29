@@ -6,7 +6,7 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            int text = 1;
+            string text = "1205.009";
 
             ThousandSeparator thousandSeparator = new ThousandSeparator();
 
