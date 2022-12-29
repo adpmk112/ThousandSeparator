@@ -18,9 +18,15 @@ namespace ConsoleTest
             return separatedValue;
         }
 
+        public string SeperateWithOneDecimal(decimal word)
+        {
+            string separatedValue = String.Format("{0:#,##0.0}", word);
+            return separatedValue;
+        }
+
         public string EnhancedSeparate(object word) 
         {
-            char last, beforeLast, checkdot;
+            char last;
             string splittedVal;
 
             string stringWord = word.ToString();
@@ -34,19 +40,12 @@ namespace ConsoleTest
                 return DefaultSeparate(Convert.ToDecimal(stringWord));
             }
 
-            if (stringWord.Length >= 3)
+            if (stringWord.Length == 3 && last == '0')
             {
-                beforeLast = stringWord[stringWord.Length - 2];
-                checkdot = stringWord[stringWord.Length - 3];
+                return DefaultSeparate(Convert.ToDecimal(stringWord));
             }
 
-            else
-            {
-                splittedVal = stringWord;
-                return DefaultSeparate(Convert.ToDecimal(splittedVal));
-            }
-
-            if (last == '0' && beforeLast == '0' && checkdot == '.')
+            if (stringWord.Contains(".00"))
             {
                 char[] delimiterChars = { '.' };
                 string[] words = stringWord.Split(delimiterChars, 2);
